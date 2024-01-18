@@ -1,0 +1,15 @@
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\CreateSantiagoInstanceTXT.exe
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\CreateSantiagoInstanceTXT.deps.json
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\CreateSantiagoInstanceTXT.runtimeconfig.json
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\CreateSantiagoInstanceTXT.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\CreateSantiagoInstanceTXT.pdb
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.csproj.AssemblyReference.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.AssemblyInfoInputs.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.AssemblyInfo.cs
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.csproj.CoreCompileInputs.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\refint\CreateSantiagoInstanceTXT.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.pdb
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.genruntimeconfig.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\ref\CreateSantiagoInstanceTXT.dll
