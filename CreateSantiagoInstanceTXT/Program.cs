@@ -7,20 +7,25 @@ class Test
     {
         string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
         string path = $"{desktopPath}\\Santiago.txt";
-        
+
+        string text = "Hola Mundo!";
+
+        string success = "The file was created successfully.";
+        string alreadyCreated = "The file already exist.";
+
+
         if (!File.Exists(path))
         {
             using (StreamWriter sw = File.CreateText(path))
             {
-                sw.WriteLine("Hola Mundo!");
-
-                Console.WriteLine("The file was created successfully.");
+                sw.WriteLine(text);
+                Console.WriteLine(success);
             }
 
         }
         else
         {
-            Console.WriteLine("The file already exist.");
+            Console.WriteLine(alreadyCreated);
         }
     }
 }
