@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {
-      "MyLibraryClass/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/MyLibraryClass.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/MyLibraryClass.dll": {}
-        }
-      }
-    }
+    "net6.0": {}
   },
-  "libraries": {
-    "MyLibraryClass/1.0.0": {
-      "type": "project",
-      "path": "../MyLibraryClass/MyLibraryClass.csproj",
-      "msbuildProject": "../MyLibraryClass/MyLibraryClass.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net6.0": [
-      "MyLibraryClass >= 1.0.0"
-    ]
+    "net6.0": []
   },
   "packageFolders": {
     "C:\\Users\\Santi\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\CreateSantiagoInstanceTXT\\CreateSantiagoInstanceTXT.csproj",
-      "projectName": "CreateSantiagoInstanceTXT",
-      "projectPath": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\CreateSantiagoInstanceTXT\\CreateSantiagoInstanceTXT.csproj",
+      "projectUniqueName": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\MyLibraryClass\\MyLibraryClass.csproj",
+      "projectName": "MyLibraryClass",
+      "projectPath": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\MyLibraryClass\\MyLibraryClass.csproj",
       "packagesPath": "C:\\Users\\Santi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\CreateSantiagoInstanceTXT\\obj\\",
+      "outputPath": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\MyLibraryClass\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\MyLibraryClass\\MyLibraryClass.csproj": {
-              "projectPath": "C:\\Users\\Santi\\source\\repos\\CreateSantiagoInstanceTXT\\MyLibraryClass\\MyLibraryClass.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

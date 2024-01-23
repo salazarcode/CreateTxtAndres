@@ -1,0 +1,12 @@
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\bin\Debug\net6.0\MyLibraryClass.deps.json
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\bin\Debug\net6.0\MyLibraryClass.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\bin\Debug\net6.0\MyLibraryClass.pdb
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.csproj.AssemblyReference.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.AssemblyInfoInputs.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.AssemblyInfo.cs
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.csproj.CoreCompileInputs.cache
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\refint\MyLibraryClass.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\MyLibraryClass.pdb
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\MyLibraryClass\obj\Debug\net6.0\ref\MyLibraryClass.dll

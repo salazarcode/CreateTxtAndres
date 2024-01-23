@@ -6,14 +6,6 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "CreateSantiagoInstanceTXT/1.0.0": {
-        "dependencies": {
-          "MyLibraryClass": "1.0.0"
-        },
-        "runtime": {
-          "CreateSantiagoInstanceTXT.dll": {}
-        }
-      },
       "MyLibraryClass/1.0.0": {
         "runtime": {
           "MyLibraryClass.dll": {}
@@ -22,11 +14,6 @@
     }
   },
   "libraries": {
-    "CreateSantiagoInstanceTXT/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
     "MyLibraryClass/1.0.0": {
       "type": "project",
       "serviceable": false,

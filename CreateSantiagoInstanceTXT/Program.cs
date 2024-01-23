@@ -1,28 +1,21 @@
 ﻿using System;
 using System.IO;
 
-class Test
+namespace CreateSantiagoInstanceTXT
 {
-    public static void Main(string[] args)
+    class Program
     {
-        string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-        string path = $"{desktopPath}\\{args[0]}";
-
-        string success = "The file was created successfully.";
-        string alreadyCreated = "The file already exist.";
-
-
-        if (!File.Exists(path))
+        static void Main(string[] args)
         {
-            using (StreamWriter sw = File.CreateText(path))
-            {
-                sw.WriteLine(args[1]);
-                Console.WriteLine(success);
-            }
-        }
-        else
-        {
-            Console.WriteLine(alreadyCreated);
+            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
+            string path = Path.Combine(desktopPath, args[0]);
+
+            string success = "The file was created successfully...";
+            string alreadyCreated = "The file already exists...";
+
+            bool created = MyLibraryClass.FileGenerator.CreateTextFile(path, args[1]);
+
+            Console.WriteLine(created ? success : alreadyCreated);
         }
     }
 }

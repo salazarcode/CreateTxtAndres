@@ -13,3 +13,6 @@ C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\
 C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.pdb
 C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.genruntimeconfig.cache
 C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\ref\CreateSantiagoInstanceTXT.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\MyLibraryClass.dll
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\bin\Debug\net6.0\MyLibraryClass.pdb
+C:\Users\Santi\source\repos\CreateSantiagoInstanceTXT\CreateSantiagoInstanceTXT\obj\Debug\net6.0\CreateSantiagoInstanceTXT.csproj.CopyComplete
