@@ -9,7 +9,7 @@ namespace CreateSantiagoInstanceTXT
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0 && args.Length != 2)
+            if (args.Length == 0)
             {
                 throw new Exception("Arguments error.");
             }
