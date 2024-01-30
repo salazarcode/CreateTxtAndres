@@ -7,25 +7,38 @@ namespace ejecutese
     {
         static void Main(string[] args)
         {
-            string command = args[0];
-            string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-
-            switch (command)
+            try
             {
-                case "create":
-                    bool created = FileGenerator.CreateTextFile(Path.Combine(desktopPath, args[1]), args[2]);
-                    Console.WriteLine(created ? "The file was created successfully..." : "The file already exists...");
-                    break;
+                if (args.Length == 0)
+                    throw new Exception("Arguments error.");
 
-                case "read":
-                    var res = Reader.ReadFileContent(Path.Combine(desktopPath, args[1]));
-                    Console.WriteLine(res);
-                    break;
+                string command = args[0];
+                string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
-                default:
-                    Console.WriteLine("Command not found.");
-                    break;
+                switch (command)
+                {
+                    case "create":
+                        var createPath = Path.Combine(desktopPath, args[1]);
+                        bool created = FileGenerator.CreateTextFile(createPath, args[2]);
+                        Console.WriteLine(created ? "The file was created successfully..." : "The file already exists...");
+                        break;
+
+                    case "read":
+                        var readpath = Path.Combine(desktopPath, args[1]);
+                        var res = Reader.ReadFileContent(readpath);
+                        Console.WriteLine(res);
+                        break;
+
+                    default:
+                        Console.WriteLine("Command not found.");
+                        break;
+                }
             }
+            catch (Exception e)
+            {
+                throw e;
+            }
+
         }
     }
 }
