@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "CreateSantiagoInstanceTXT": {
+      "commandName": "Project",
+      "commandLineArgs": "andres.txt \"Los caballos comen pasto\""
+    }
+  }
+}
