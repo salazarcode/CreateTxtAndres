@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CreateSantiagoInstanceTXT",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileManipulation", "FileManipulation\FileManipulation.csproj", "{10BAA1FD-9B39-4E88-98E5-7D3150C1ED83}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{76E7921A-5695-43BF-BA85-590604B9F6E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{CEF829C6-453E-431F-8D6D-BE4363DB14AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejecutese", "ejecutese\ejecutese.csproj", "{3005743A-15B2-403A-845F-BAE7734273E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +27,18 @@ Global
 		{10BAA1FD-9B39-4E88-98E5-7D3150C1ED83}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10BAA1FD-9B39-4E88-98E5-7D3150C1ED83}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10BAA1FD-9B39-4E88-98E5-7D3150C1ED83}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3005743A-15B2-403A-845F-BAE7734273E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3005743A-15B2-403A-845F-BAE7734273E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3005743A-15B2-403A-845F-BAE7734273E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3005743A-15B2-403A-845F-BAE7734273E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{50B8AF62-3B5F-4301-849C-4095D5D3ECE0} = {76E7921A-5695-43BF-BA85-590604B9F6E6}
+		{10BAA1FD-9B39-4E88-98E5-7D3150C1ED83} = {CEF829C6-453E-431F-8D6D-BE4363DB14AD}
+		{3005743A-15B2-403A-845F-BAE7734273E7} = {76E7921A-5695-43BF-BA85-590604B9F6E6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {374A2B50-4C13-47A1-BDE2-D338F278AA31}

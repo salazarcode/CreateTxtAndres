@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ejecutese": {
+      "commandName": "Project",
+      "commandLineArgs": "read andres.txt \"Los chivos comen trigo\""
+    }
+  }
+}
