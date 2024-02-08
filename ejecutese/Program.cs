@@ -1,4 +1,6 @@
-﻿using FileManipulation;
+﻿using ejecutese.DTOs;
+using FileManipulation;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 
 namespace ejecutese
@@ -26,7 +28,36 @@ namespace ejecutese
                     case "read":
                         var readpath = Path.Combine(desktopPath, args[1]);
                         var res = Reader.ReadFileContent(readpath);
-                        Console.WriteLine(res);
+
+                        if (readpath.Contains(".csv"))
+                        {
+                            var lista = new List<Persona>();
+
+                            var cantidadLineas = res.Split("\n").Length;
+
+                            var lineas = res.Split("\n");
+
+                            for (int i = 1; i < cantidadLineas; i++)
+                            {
+                                var valores = lineas[i].Split(",");
+
+                                var persona = new Persona
+                                {
+                                    ID = int.Parse(valores[0]),
+                                    Nombre = valores[1],
+                                    Apellido = valores[2],
+                                    Edad = int.Parse(valores[3]),
+                                    CorreoElectronico = valores[4]
+                                };
+
+                                lista.Add(persona);
+                            }   
+
+                            Console.Write(lista);
+                        }
+                        else
+                            Console.WriteLine(res);
+
                         break;
 
                     default:

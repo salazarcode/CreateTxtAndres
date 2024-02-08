@@ -11,7 +11,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{76E7
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utilities", "Utilities", "{CEF829C6-453E-431F-8D6D-BE4363DB14AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ejecutese", "ejecutese\ejecutese.csproj", "{3005743A-15B2-403A-845F-BAE7734273E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ejecutese", "ejecutese\ejecutese.csproj", "{3005743A-15B2-403A-845F-BAE7734273E7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
