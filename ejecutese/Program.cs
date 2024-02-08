@@ -1,5 +1,6 @@
 ﻿using ejecutese.DTOs;
 using FileManipulation;
+using Newtonsoft.Json;
 using System.ComponentModel.DataAnnotations;
 using System.IO;
 
@@ -51,9 +52,11 @@ namespace ejecutese
                                 };
 
                                 lista.Add(persona);
-                            }   
+                            }
 
-                            Console.Write(lista);
+                            string serialized = JsonConvert.SerializeObject(lista);
+
+                            Console.WriteLine(serialized);
                         }
                         else
                             Console.WriteLine(res);
