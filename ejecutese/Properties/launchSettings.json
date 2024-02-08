@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ejecutese": {
+      "commandName": "Project",
+      "commandLineArgs": "read datos.csv"
+    }
+  }
+}
